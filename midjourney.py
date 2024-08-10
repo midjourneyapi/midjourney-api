@@ -9,7 +9,7 @@ import threading
 
 
 # 设置基础URL和端点
-BASE_URL = "ai.trueai.org"
+BASE_URL = "midjourncy.com"
 SUBMIT_ENDPOINT = "/mj-relax/mj/submit/imagine"
 FETCH_ENDPOINT_TEMPLATE = "/mj-relax/mj/task/{task_id}/fetch"
 
