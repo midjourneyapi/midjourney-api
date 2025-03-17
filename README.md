@@ -1,6 +1,6 @@
 # MidJourney API 图像生成演示
 
-这个项目是一个简单的 MidJourney API 图像生成演示程序，通过 aiyiapi 平台聚合全球 AI API，实现一个代码轻松接入 MidJourney 服务的功能。MidJourney 是一个强大的 AI 图像生成服务，能够根据文本提示词生成高质量图像。本项目支持多线程处理提示词、图像下载与切割，并完全兼容 MidJourney 的接口规范。
+这个项目是一个简单的 MidJourney API 图像生成演示程序，通过 aiyiapi 平台聚合全球 AI API，实现一个代码轻松接入 MidJourney 服务的功能。MidJourney 是一个强大的 AI 图像生成工具。
 
 ## 功能特点
 
@@ -22,9 +22,8 @@
 
 在开始使用之前，你需要安装项目的依赖库。请确保你已经安装了 Python 环境，并运行以下命令来安装所需的库：
 
-```
- bash
-pip install requests pillo
+```bash
+pip install requests pillow
 ```
 
 ## 配置 API 密钥
